@@ -6,12 +6,18 @@
 		* {
 			font-family: helvetica;
 		}
+		a {
+			text-decoration-color: none;
+		}
 	</style>
 </head>
 <body>
 
+	<h1>Bookmarklets</h1>
 
-<a href='javascript:q = prompt("Medicamento?", "") + " (comprimidos|gel) filetype:pdf site:com.br"; if (q!=null) window.open("http://www.google.com.br/search?q=" + escape(q).replace(/ /g, "+")); void 0'>_meds</a>
+	<p>Basta arrastar o link abaixo para a barra de bookmarks</p>
+
+	<a href='javascript:q = prompt("Medicamento?", "") + " (comprimidos|gel) filetype:pdf site:com.br"; if (q!=null) window.open("http://www.google.com.br/search?q=" + escape(q).replace(/ /g, "+")); void 0'>_meds</a>
 
 
 
